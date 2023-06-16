@@ -1,0 +1,60 @@
+@font-face {
+    font-family: myfont;
+    src: url(Valorant\ Font.ttf);
+}
+h1{
+    text-align: center;
+    font-size: 40;
+    font-family: myfont;
+    color: white;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    color:#fff;
+
+    background: url(fundo\ cadastro\ 2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.form-box{
+    position: relative;
+    width: 700px;
+    height: 500px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+}
+
+.textocadastro{
+    
+}
+
+input{
+    text-indent: 0.2em;
+}
+
+.input-box{
+    font-size: 40;
+    color:white;
+}
+
+.input-label{
+    color:#fff;
+}
+
+button{
+    width: 60%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}

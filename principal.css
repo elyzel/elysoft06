@@ -1,0 +1,40 @@
+@font-face {
+    font-family: firstfont;
+    src: url(Valorant\ Font.ttf);
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+
+    background: url(fundo_principal.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.form-box{
+    position: relative;
+    width: 1400px;
+    height: 250px;
+    background:transparent;
+    border:2px solid white;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.apretc{
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    font-family: firstfont;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1.3px;
+}
+
+
+

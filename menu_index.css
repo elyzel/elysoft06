@@ -1,0 +1,40 @@
+/*Para colocar imagem de fundo*/
+html{
+    min-height: 100%;
+    background-image: url("fundo_menu.jpg");
+    background-size: cover;
+}
+/* Para exportar a fonte de outro lugar*/
+@font-face {
+    font-family: firstfont;
+    src: url(Valorant\ Font.ttf);
+}
+
+/*Para alterar as propriedades do h1 no html*/
+h1{
+    text-align: center;
+    color: white;
+    font-family: firstfont;
+
+}
+/*Para alterar as propriedades do link no html*/
+a{
+    font-size: 25;
+    text-align: center;
+    color:white;
+}
+
+body{
+    margin:0%;
+}
+
+.link{
+    text-decoration: none;
+    text-align: center;
+}
+
+.link:hover{
+    color: darkgoldenrod;
+    background-color: black;
+}
+
